@@ -1,0 +1,154 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+	display: none;
+	}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(101.07deg, #19141E 7.93%, #4C6793 93.3%);
+}
+
+#particles-js {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.profile {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	margin: 120px 0 0 0;
+	color: #FFFFFF;
+	height: calc(100vh - 120px);
+}
+
+.profile--imagem {
+	position: relative;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	z-index: 100;
+}
+
+.profile h1 {
+	margin-top: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+
+.profile p {
+	margin-top: 5px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+}
+
+.lista {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	width: 300px;
+	height: 136px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+	margin-top: 50px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.lista ul li a {
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	color: #19141E;
+	font-weight: bold;
+}
+
+.lista ul li a:hover {
+	transform: scale(1.01);
+	background: linear-gradient(101.07deg, #19141E 7.93%, #4C6793 93.3%);
+	color: #FFFFFF;
+}
+
+.lista--botoes {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 20px 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+.lista--botoes a {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.lista--botoes a:hover {
+	background: linear-gradient(101.07deg, #19141E 7.93%, #4C6793 93.3%);
+}
+
+.botoes--linkedin {
+	position: relative;
+	top: -70px;
+	width: 145px;
+	height: 50px;
+	background: #19141E;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 29px;
+}
+
+/* .botoes--lattes {
+	position: absolute;
+	top: -20px;
+	right: 4px;
+	width: 145px;
+	height: 50px;
+	background: #19141E;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 29px;
+} */
+
+.links {
+	position: absolute;
+	top: 20%;
+}
+
+.link {
+	margin: 2.5% 0;
+	width: 290px;
+	height: 30px;
+	left: 5px;
+	top: 80px;
+	background: #FFFFFF;
+	border: 1px solid #19141E;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 29px;
+}
